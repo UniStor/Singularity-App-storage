@@ -1,6 +1,3 @@
 ---
 
 gluster_mount: "{{mount_dir}}/{{volume_name}}"
-
-
-singularity_dirs: Transient/Singularity/Game

@@ -1,0 +1,10 @@
+---
+- block:
+  - name: Create a Singularity on mounted CephFS volume
+    ansible.builtin.file:
+      path: "{{cephfs_mount}}/{{singularity_dirs}}"
+      state: directory
+      owner: "{{ansible_user}}"
+      group: "{{ansible_user}}"
+
+  when: ceph

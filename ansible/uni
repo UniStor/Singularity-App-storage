@@ -1,13 +1,13 @@
 ---
 - hosts: local
   vars:
-    cephfs: true
+    ceph: true
     cephrbd: false
-    glusterfs: true
+    gluster: true
     glusterblock: false
     glusterobject: false
 
-    primary: glusterfs
+    primary: gluster
 
   roles:
   - Create Singularity dirs
