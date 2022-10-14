@@ -1,0 +1,4 @@
+---
+dependencies:
+- get/ceph mount
+- get/gluster mount

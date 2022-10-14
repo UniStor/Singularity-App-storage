@@ -1,0 +1,3 @@
+[submodule "ansible/roles/include/GlusterFS"]
+	path = ansible/roles/include/GlusterFS
+	url = https://github.com/UniStor/GlusterFS.git

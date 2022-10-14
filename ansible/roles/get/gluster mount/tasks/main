@@ -1,0 +1,4 @@
+---
+- name: Set mount_dir by Distribution
+  include_vars:
+    file: "{{playbook_dir}}/roles/include/GlusterFS/ansible/roles/client/mount/vars/{{ ansible_os_family }}-{{ ansible_distribution }}"

@@ -1,0 +1,3 @@
+---
+dependencies:
+- include/GlusterFS/ansible/roles/Volume

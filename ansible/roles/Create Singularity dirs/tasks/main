@@ -1,0 +1,9 @@
+---
+
+
+
+- include_tasks: "{{primary}}"
+
+
+# - debug:
+#     msg: "Mount........... {{gluster_mount}}"
